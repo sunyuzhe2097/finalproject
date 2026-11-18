@@ -1,1 +1,39 @@
 
+---
+title: "Project Proposal"
+author: "Yuzhe Sun"
+format: html
+editor: visual
+---
+
+## Investigative objective
+
+The goal of this project is to conduct two independent data analysis using two distinct datasets investigated in class, and producing two vignettes.
+
+The first dataset will be the `waterborne` dataset in the `finalproject` package. The aim is to conduct analysis on the geographic trends of waterborne diseases outbreaks in the United States, and explore which pathogen has the greatest impact.
+
+The second dataset will be the `NHANES` dataset in the `NHANES` package. The aim is to investigate the distribution of health indicators (such as BMI and blood pressure) across different groups (such as age and gender).
+
+## Datasets
+
+`waterborne`
+
+- Source: Data on waterborne disease provided by the US CDC.
+
+- Variables of Interest: state, etiology, illnesses, deaths, water exposure, water types
+
+`NHANES`
+
+- Source: The National Health and Nutrition Examination Survey conducted by the US CDC.
+
+- Variables of interest: age, sex, race, education, BMI, systolic blood pressure, diabetes.
+
+## Plans
+
+For `waterborne`: Calculation of outbreak frequencies by etiology and state, and create plots to visualize trend of disease outbreaks over years. Focus on the epidemiological trend and characteristics of outbreaks.
+
+For `NHANES` : Explore associations between variables, doing tests. Doing visualization to compare between population subgroups.
+
+## Limitations
+
+The `waterborne` dataset depend on the voluntary reports of local health departments, which will likely underestimate the true burden of the waterborne diseases. The `NHANES` dataset is cross-sectional, so a causal relationship cannot be derived from the data. Moreover, this dataset depend highly on self-reported information.
